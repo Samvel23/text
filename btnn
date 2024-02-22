@@ -1,0 +1,13 @@
+<button onclick="foo()">click</button>
+<div id="div">just a text</div>
+<script>
+    function foo() {
+        let x = document.getElementById("div");
+        if(x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    
+</script>
